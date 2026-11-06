@@ -6749,7 +6749,7 @@ body {
 .section-account-flow {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
   overflow: hidden;
 }
 .section-account-flow > .card-notif-first {
@@ -7208,7 +7208,7 @@ button:nth-child(5) {
   border: 1px solid #e8e0d1;
   background-color: var(--background-color-grid);
   border-radius: 16px;
-  width: 650px;
+  width: 57%;
 }
 .container-hero-flow
   > .container-flow
@@ -7466,7 +7466,10 @@ button:nth-child(5) {
 /* akhir page account-flowPageThird*/
 
 /* page account-flowPageFourth */
-.container-hero-flow > .container-flow > .section-account-flow > .flex-col-page-fourth {
+.container-hero-flow
+  > .container-flow
+  > .section-account-flow
+  > .flex-col-page-fourth {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -7475,7 +7478,7 @@ button:nth-child(5) {
   border: 1px solid #e8e0d1;
   background-color: var(--background-color-grid);
   border-radius: 16px;
-  width: 650px;
+  width: 57%;
 }
 .container-hero-flow
   > .container-flow
@@ -7521,38 +7524,45 @@ button:nth-child(5) {
 .container-hero-flow
   > .container-flow
   > .section-account-flow
-  > .flex-col-page-fourth > .form-row > input:hover {
-    border: 1px solid var(--color-nav-span3);
-    cursor: pointer;
-  }
+  > .flex-col-page-fourth
+  > .form-row
+  > input:hover {
+  border: 1px solid var(--color-nav-span3);
+  cursor: pointer;
+}
 .container-hero-flow
   > .container-flow
   > .section-account-flow
   > .flex-col-page-fourth
-  > .form-row > div {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-  }
+  > .form-row
+  > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
 .container-hero-flow
   > .container-flow
   > .section-account-flow
   > .flex-col-page-fourth
-  > .form-row > div > span:nth-child(1) {
-    color: #13231B;
-    font-weight: 600;
-    font-size: 12px;
-  }
+  > .form-row
+  > div
+  > span:nth-child(1) {
+  color: #13231b;
+  font-weight: 600;
+  font-size: 12px;
+}
 .container-hero-flow
   > .container-flow
   > .section-account-flow
   > .flex-col-page-fourth
-  > .form-row > div > span:nth-child(2) {
-    color: #84928A;
-    font-weight: 400;
-    font-size: 11px;
-  }
-  .container-hero-flow
+  > .form-row
+  > div
+  > span:nth-child(2) {
+  color: #84928a;
+  font-weight: 400;
+  font-size: 11px;
+}
+.container-hero-flow
   > .container-flow
   > .section-account-flow
   > .flex-col-page-fourth
@@ -7569,75 +7579,211 @@ button:nth-child(5) {
 /* akhir  account-flowPageFourth*/
 
 /* page account-flowPageFifth */
-.container-hero-flow > .container-flow > .section-account-flow > .flex-col-page-fifth {
+.container-hero-flow
+  > .container-flow
+  > .section-account-flow
+  > .flex-col-page-fifth {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  padding: 10px 30px;
+  padding: 25px 30px;
   overflow: hidden;
   border: 1px solid #e8e0d1;
   background-color: var(--background-color-grid);
   border-radius: 16px;
-  width: 650px;
+  width: 57%;
 }
-.container-hero-flow > .container-flow > .section-account-flow > .flex-col-page-fifth > div:nth-child(1) {
+.container-hero-flow
+  > .container-flow
+  > .section-account-flow
+  > .flex-col-page-fifth
+  > div:nth-child(1) {
   display: flex;
   flex-direction: column;
   gap: 3px;
 }
-.container-hero-flow > .container-flow > .section-account-flow > .flex-col-page-fifth > div:nth-child(1) > h2 {
-  color: #13231B;
+.container-hero-flow
+  > .container-flow
+  > .section-account-flow
+  > .flex-col-page-fifth
+  > div:nth-child(1)
+  > h2 {
+  color: #13231b;
   font-weight: 600;
   font-size: 18.4px;
   font-family: var(--font-family);
 }
-.container-hero-flow > .container-flow > .section-account-flow > .flex-col-page-fifth > div:nth-child(1) > span {
-  color: #84928A;
+.container-hero-flow
+  > .container-flow
+  > .section-account-flow
+  > .flex-col-page-fifth
+  > div:nth-child(1)
+  > span {
+  color: #84928a;
   font-weight: 400;
   font-size: 12px;
 }
-.container-hero-flow > .container-flow > .section-account-flow > .flex-col-page-fifth > p {
+.container-hero-flow
+  > .container-flow
+  > .section-account-flow
+  > .flex-col-page-fifth
+  > p {
   color: var(--color-nav-span2);
   font-weight: 400;
   font-size: 13px;
   line-height: 22.1px;
 }
-.container-hero-flow > .container-flow > .section-account-flow > .flex-col-page-fifth > div:nth-child(3) {
+.container-hero-flow
+  > .container-flow
+  > .section-account-flow
+  > .flex-col-page-fifth
+  > div:nth-child(3) {
   display: flex;
   flex-direction: column;
   gap: 13px;
-  border: 1px solid #D7CBB6;
-  border: dashed #D7CBB6;
-  background: #F4EFE4;
+  border: 1px solid #d7cbb6;
+  border: dashed #d7cbb6;
+  background: #f4efe4;
   padding: 20px;
   border-radius: 12px;
 }
-.container-hero-flow > .container-flow > .section-account-flow > .flex-col-page-fifth > div:nth-child(3) > span:nth-child(1) {
-  color: #13231B;
+.container-hero-flow
+  > .container-flow
+  > .section-account-flow
+  > .flex-col-page-fifth
+  > div:nth-child(3)
+  > span:nth-child(1) {
+  color: #13231b;
   font-weight: 600;
   font-size: 12px;
 }
-.container-hero-flow > .container-flow > .section-account-flow > .flex-col-page-fifth > div:nth-child(3) > span:nth-child(2) {
-  color: #84928A;
+.container-hero-flow
+  > .container-flow
+  > .section-account-flow
+  > .flex-col-page-fifth
+  > div:nth-child(3)
+  > span:nth-child(2) {
+  color: #84928a;
   font-weight: 400;
   font-size: 11px;
 }
-.container-hero-flow > .container-flow > .section-account-flow > .flex-col-page-fifth > div:nth-child(3) > button {
+.container-hero-flow
+  > .container-flow
+  > .section-account-flow
+  > .flex-col-page-fifth
+  > div:nth-child(3)
+  > button {
   display: flex;
   align-items: center;
   gap: 10px;
-  border: 1px solid #D7CBB6;
+  border: 1px solid #d7cbb6;
   background-color: var(--background-color-grid);
   width: 38%;
   cursor: pointer;
   padding: 10px 20px;
 }
-.container-hero-flow > .container-flow > .section-account-flow > .flex-col-page-fifth > div:nth-child(3) > button > span {
-  color: #13231B;
+.container-hero-flow
+  > .container-flow
+  > .section-account-flow
+  > .flex-col-page-fifth
+  > div:nth-child(3)
+  > button
+  > span {
+  color: #13231b;
   font-weight: 600;
   font-size: 12px;
 }
 /* akhir  account-flowPageFifth*/
+
+/* page account-flowPageSix */
+.container-hero-flow
+  > .container-flow
+  > .section-account-flow
+  > .flex-col-page-six {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 25px 30px;
+  overflow: hidden;
+  border: 1px solid #e8e0d1;
+  background-color: var(--background-color-grid);
+  border-radius: 16px;
+  width: 57%;
+}
+.container-hero-flow
+  > .container-flow
+  > .section-account-flow
+  > .flex-col-page-six
+  > .card {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.container-hero-flow
+  > .container-flow
+  > .section-account-flow
+  > .flex-col-page-six
+  > .card:nth-child(1)
+  > h2 {
+  color: #13231b;
+  font-weight: 600;
+  font-size: 18.4px;
+  font-family: var(--font-family);
+}
+.container-hero-flow
+  > .container-flow
+  > .section-account-flow
+  > .flex-col-page-six
+  > .card:nth-child(1)
+  > span {
+  color: #84928a;
+  font-weight: 400;
+  font-size: 12px;
+}
+.container-hero-flow
+  > .container-flow
+  > .section-account-flow
+  > .flex-col-page-six
+  > .card
+  > label {
+  color: var(--color-nav-span2);
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+}
+.container-hero-flow
+  > .container-flow
+  > .section-account-flow
+  > .flex-col-page-six
+  > .card
+  > div {
+  display: flex;
+  align-items: center;
+}
+.container-hero-flow
+  > .container-flow
+  > .section-account-flow
+  > .flex-col-page-six
+  > .card
+  > div
+  > input {
+  border: 1px solid #d7cbb6;
+  background-color: var(--background-color-grid);
+  padding: 10px 15px;
+  border-radius: 12px;
+  width: 100%;
+}
+.container-hero-flow
+  > .container-flow
+  > .section-account-flow
+  > .flex-col-page-six
+  > .card
+  > div
+  > img {
+  position: absolute;
+  margin-left: 560px;
+}
+/* akhir account-flowPageSix */
 
 /* footer landing page, liveFeed page, track page, & help page */
 footer {
