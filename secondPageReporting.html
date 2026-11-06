@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="container-report">
+      <nav>
+        <img src="picture/Background.svg" alt="background.png" />
+        <a href="index.html">WargaReport</a>
+      </nav>
+
+      <nav>
+        <a href="liveFeed.html">Live Feed</a>
+        <a href="trackPage.html">Track</a>
+        <a href="helpPage.html">How it works</a>
+        <a href="#">My Reports</a>
+      </nav>
+
+      <nav class="nav-reporting">
+        <button class="btn-notification">
+          <img src="picture/lonceng.svg" alt="lonceng.svg" />
+          <img src="picture/titikHijau.svg" alt="titikHijau.svg" />
+        </button>
+        <button class="btn-profile">
+          <img src="picture/fs.svg" alt="fs.svg" />
+          <span>
+            <span>Fahrul Septiana</span>
+            <span>Citizen</span>
+          </span>
+          <img src="picture/chevrown-down.svg" alt="chevrown-down.svg" />
+        </button>
+        <button>
+          <img src="picture/plus.svg" alt="picture.svg" />
+          <span>Report an Issue</span>
+        </button>
+      </nav>
+    </header>
+
+    <main class="container-hero-flow">
+      <div class="container-flow">
+        <section class="section-flow-pageTwo-one">
+          <p>Community Intake</p>
+          <div class="line-first">
+            <p>Report an Issue</p>
+            <p>Public civic reporting for Indonesian municipal services.</p>
+          </div>
+          <div class="line-second">
+            <button type="button">
+              <span>
+                <span>01</span>
+                <span>Topic</span>
+              </span>
+              <img src="picture/ceklis-hijau.svg" alt="ceklig-hijau.svg" />
+            </button>
+            <button type="button">
+              <span>02</span>
+              <span>Location</span>
+            </button>
+            <button type="button">
+              <span>03</span>
+              <span>Proof</span>
+            </button>
+            <button type="button">
+              <span>04</span>
+              <span>Review & Send</span>
+            </button>
+          </div>
+          <div class="line-third">
+            <div>
+              <img src="picture/shield.svg" alt="shield.svg" />
+              <p>Independent Verification</p>
+            </div>
+            <p>
+              Our verification desk checks each report and routes it to the
+              municipal agency (Bina Marga, PAM JAYA, Dishub, DLH, Satpol PP,
+              Citata). Resolution timestamps are tracked publicly.
+            </p>
+          </div>
+          <button type="button">Cancel and return to feed</button>
+        </section>
+
+        <section class="section-flow-pageTwo-two">
+          <div class="line-first">
+            <div>
+              <span>Step</span>
+              <span>02</span>
+              <span>of</span>
+              <span>04</span>
+            </div>
+            <p>Where is it located?</p>
+            <p>
+              Provide street address, RT/RW, or notable landmark for inspection
+              crews.
+            </p>
+          </div>
+          <div class="line-second-page">
+            <div class="card-one">
+              <div class="card-row">
+                <label for="kecamatan">Kelurahan</label>
+                <label for="kecamatan">/</label>
+                <label for="kecamatan">Kecamatan</label>
+                <label for="kecamatan">&</label>
+                <label for="kecamatan">Wilayah</label>
+              </div>
+              <select name="kecamatan" id="kecamatan">
+                <option value="coblong">Coblong</option>
+                <option value="ciwidey">Ciwidey</option>
+                <option value="cicaheum">Cicaheum</option>
+              </select>
+            </div>
+            <div class="card-two">
+              <div class="card-row-one">
+                <span>Common</span>
+                <span>areas</span>
+                <span>in</span>
+                <span>Coblong</span>
+                <img src="picture/titik.svg" alt="titik.svg" />
+                <span>Kota</span>
+                <span>Bandung</span>
+              </div>
+              <div class="card-row-two">
+                <button type="button">Jl. Dago</button>
+                <button type="button">Institut Teknologi Bandung (ITB)</button>
+                <button type="button">Simpang Dago</button>
+                <button type="button">Pasar Dago</button>
+                <button type="button">Jl. Ir. H. Juanda</button>
+              </div>
+            </div>
+            <div class="card-three">
+              <label for="lokasi">
+                <span>
+                  <span>Street</span>
+                  <span>Address,</span>
+                  <span>RT/RW,</span>
+                  <span>OR</span>
+                  <span>LANDMARK *</span>
+                </span>
+              </label>
+              <input
+                type="text"
+                id="lokasi"
+                name="lokasi"
+                value="Jl. Tamansari depan Kebun Binatang"
+              />
+            </div>
+
+            <div class="card-four">
+              <img src="picture/location.svg" alt="location.svg" />
+              <span>Coordinates auto-pinned</span>
+              <span>6.2088° S, 106.8456° E (WIB)</span>
+            </div>
+          </div>
+
+          <div class="card-five">
+            <button>
+              <img src="picture/arrow-left.svg" alt="arrow-left.svg" />
+              <span>Back</span>
+            </button>
+            <button>
+              <span>Continue</span>
+              <img src="picture/arrow.svg" alt="arrow.svg" />
+            </button>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div>
+        <div class="footer-head-one">
+          <div class="footer-main-one">
+            <span>WargaReport</span>
+            <p>
+              WargaReport is an independent civic reporting platform for
+              municipal infrastructure issues across Indonesia. Residents submit
+              evidence, fllow SLA countdowns, and track resolution updates from
+              the responsible agencies.
+            </p>
+            <p>
+              Not for life-threatening emergencies — call 112 (National
+              Emergency Call Center) or BPBD DKI directly.
+            </p>
+          </div>
+          <div class="footer-main-two">
+            <a href="#">CITIZENS</a>
+            <a href="#">File a report</a>
+            <a href="#">Track complaint</a>
+            <a href="#">Public reports registry</a>
+            <a href="#">My filing history</a>
+          </div>
+          <div class="footer-main-two">
+            <a href="#">Agencies</a>
+            <a href="#">Participating bureaus</a>
+            <a href="#">Officer triage queue</a>
+            <a href="#">SLA benchmarks</a>
+          </div>
+          <div class="footer-main-two">
+            <a href="#">CIVIC TRUST</a>
+            <a href="#">Help & FAQs</a>
+            <a href="#">Evidence guidelines</a>
+            <a href="#">PII & redaction policy</a>
+          </div>
+        </div>
+
+        <div class="footer-head-two">
+          <div class="footer-main">
+            <span>&copy; 2026 WargaReport. All rights reserved.</span>
+            <span>UU No. 25/2009 Compliant</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

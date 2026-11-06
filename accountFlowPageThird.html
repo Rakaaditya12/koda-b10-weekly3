@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="container-report">
+      <nav>
+        <img src="picture/Background.svg" alt="background.png" />
+        <a href="index.html">WargaReport</a>
+      </nav>
+
+      <nav>
+        <a href="liveFeed.html">Live Feed</a>
+        <a href="trackPage.html">Track</a>
+        <a href="helpPage.html">How it works</a>
+        <a href="#">My Reports</a>
+      </nav>
+
+      <nav class="nav-reporting">
+        <button class="btn-notification">
+          <img src="picture/lonceng.svg" alt="lonceng.svg" />
+          <img src="picture/titikHijau.svg" alt="titikHijau.svg" />
+        </button>
+        <button class="btn-profile">
+          <img src="picture/fs.svg" alt="fs.svg" />
+          <span>
+            <span>Fahrul Septiana</span>
+            <span>Citizen</span>
+          </span>
+          <img src="picture/chevrown-down.svg" alt="chevrown-down.svg" />
+        </button>
+        <button>
+          <img src="picture/plus.svg" alt="picture.svg" />
+          <span>Report an Issue</span>
+        </button>
+      </nav>
+    </header>
+
+    <main class="container-hero-flow">
+        <div class="container-flow">
+            <section class="section-account-flow">
+                <div class="card-notif-first">
+                    <p>Citizen Management</p>
+                    <div>
+                        <h1>Account & Case History</h1>
+                    </div>
+                </div>
+
+                <div class="card-notif-second">
+                    <button>My complaints</butt>
+                    <button>Profile</button>
+                    <button>Notifications</button>
+                    <button>Privacy & data</button>
+                    <button>Security</button>
+                </div>
+
+                <div class="flex-col">
+                    <div class="child-col">
+                        <h2>Filer Identity & Preferences</h2>
+                        <span>Used to pre-fill future complaint forms and verify status inquiries.</span>
+                    </div>
+
+                    <div class="flex-row">
+                        <img src="picture/fs.svg" alt="fs.svg">
+                        <div class="child-flex-col">
+                            <span>Profile photo</span>
+                            <span>JPG, PNG, or WebP. Square images work best.</span>
+                            <button>Upload photo</button>
+                        </div>
+                    </div>
+
+                    <div class="form-name">
+                        <label for="name">FULL LEGAL NAME</label>
+                        <input type="text" id="name" name="name" value="Fahrul Septiana" required>
+                    </div>
+
+                    <div class="form-email">
+                        <label for="email">Primary Notification Email</label>
+                        <input type="text" id="email" name="email" value="fahrul@wargareport.id" required>
+                    </div>
+
+                    <div class="form-phone">
+                        <label for="phone">SMS Contact Number</label>
+                        <input type="text" id="phone" name="phone" value="+62 812-9842-1054" required>
+                    </div>
+
+                    <div class="form-nik">
+                        <label for="nik">NIK</label>
+                        <input type="text" name="nik" id="nik" value="3174051809900004" required>
+                    </div>
+
+                    <button type="submit">
+                        Save profile changes
+                    </button>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
