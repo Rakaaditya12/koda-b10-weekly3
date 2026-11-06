@@ -110,8 +110,71 @@ body {
   border-radius: 999px;
 }
 .container > nav:nth-child(2) a:hover {
-  color: #0f6b4f;
+  opacity: 0.8;
 }
+/* container-nav liveFeed */
+.container > .green-liveFeed {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 10px 15px 10px 15px;
+}
+.container > .green-liveFeed > a {
+  color: var(--color-nav-span2);
+  font-size: var(--font-size-span2);
+  text-decoration: none;
+  transition: 0.3s;
+}
+.container > .green-liveFeed > a:nth-child(1) {
+  background-color: var(--color-nav-span3);
+  padding: 8px 12px;
+  border-radius: 999px;
+  color: var(--color-nav-span1);
+  font-weight: 600;
+}
+/* ~ */
+/* container-nav track */
+.container > .green-track-page {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 10px 15px 10px 15px;
+}
+.container > .green-track-page > a {
+  color: var(--color-nav-span2);
+  font-size: var(--font-size-span2);
+  text-decoration: none;
+  transition: 0.3s;
+}
+.container > .green-track-page > a:nth-child(2) {
+  background-color: var(--color-nav-span3);
+  padding: 8px 12px;
+  border-radius: 999px;
+  color: var(--color-nav-span1);
+  font-weight: 600;
+}
+/* ~ */
+/*container-nav page-help*/
+.container > .green-page-help {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 10px 15px 10px 15px;
+}
+.container > .green-page-help > a {
+  color: var(--color-nav-span2);
+  font-size: var(--font-size-span2);
+  text-decoration: none;
+  transition: 0.3s;
+}
+.container > .green-page-help > a:nth-child(3) {
+  background-color: var(--color-nav-span3);
+  padding: 8px 12px;
+  border-radius: 999px;
+  color: var(--color-nav-span1);
+  font-weight: 600;
+}
+/* ~ */
 
 /* container-nav reporting-flow*/
 .container-report {
@@ -441,6 +504,12 @@ body {
   color: black;
   font-weight: 600;
   font-size: 16px;
+}
+.container-hero > div > section:nth-child(2) > div > .hero-card > p {
+  color: var(--color-nav-span2);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18.6px;
 }
 .container-hero > div > section:nth-child(3) {
   width: 92%;
@@ -6725,7 +6794,7 @@ button:nth-child(5) {
   gap: 10px;
   border-bottom: 1px solid #e8e0d1;
   padding: 0px 0px 10px 0px;
-  width: 100%;
+  width: 100rem;
 }
 .section-account-flow > .card-notif-second > button:nth-child(1) {
   border: 1px solid var(--color-nav-span3);
@@ -7026,7 +7095,6 @@ button:nth-child(5) {
   align-items: center;
   padding: 13px 12px 12px 12px;
   border-top: 1px solid #e8e0d1;
-  background: red;
 }
 .section-account-flow
   > .card-notif-third
@@ -7045,7 +7113,6 @@ button:nth-child(5) {
   > div:nth-child(2) {
   display: flex;
   flex-direction: column;
-  /* padding: 0px 0px 0px 8px; */
 }
 .section-account-flow
   > .card-notif-third
@@ -7142,6 +7209,7 @@ button:nth-child(5) {
   border: 1px solid #e8e0d1;
   background-color: var(--background-color-grid);
   border-radius: 16px;
+  width: 650px;
 }
 .container-hero-flow
   > .container-flow
@@ -7371,16 +7439,32 @@ button:nth-child(5) {
   > .container-flow
   > .section-account-flow
   > .flex-col
-  > button {
+  > .btn-save-profile {
   border: 1px solid var(--color-nav-span3);
   background-color: var(--color-nav-span3);
   padding: 7px;
   border-radius: 999px;
-  width: 40%;
+  width: 25%;
   color: var(--color-nav-span1);
   font-weight: 600;
   font-size: 12px;
 }
+/* button update-alert */
+.container-hero-flow
+  > .container-flow
+  > .section-account-flow
+  > .flex-col
+  > .btn-update-alert {
+  border: 1px solid var(--color-nav-span3);
+  background-color: var(--color-nav-span3);
+  padding: 7px;
+  border-radius: 999px;
+  width: 29%;
+  color: var(--color-nav-span1);
+  font-weight: 600;
+  font-size: 12px;
+}
+
 /* akhir page account-flowPageThird*/
 
 /* footer landing page, liveFeed page, track page, & help page */
